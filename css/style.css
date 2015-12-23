@@ -1,0 +1,42 @@
+#btn_reg{
+	float: right;
+}
+
+#kdv_title{
+	text-align: center;
+	font-weight: bold;
+}
+.panel-default{
+	background:#FFF url('../img/bgc.png');
+}
+.panel-heading{
+	background-color:#DAE6CE !important;
+}
+#wrapper{
+	margin-top: 5px;
+}
+#bag{
+    color: white; 
+    font-size: 0px;    
+}
+#media{
+	margin-top: -8px !important;
+}
+#adapt-col, #adapt-coll{
+	width: 100% !important;
+}
+
+@media only screen and (min-width:300px) and (max-width: 600px), 
+only screen and (min-device-width: 300px) and (max-device-width: 600px){
+	.row{
+		display: flex;
+		flex-direction: column;
+	}
+	.col-xs-6{
+		margin: 2px 0;
+		width:100%;
+	}
+	#pickfiles{
+		margin: 5px 0;
+	}	
+}
